@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" role="img" aria-labelledby="t">
+<title id="t">Классика с пробором — демонстрационная иллюстрация</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2a2522"/><stop offset="1" stop-color="#0d0d0e"/></linearGradient>
+<radialGradient id="glow" cx="0.5" cy="0.35" r="0.6"><stop offset="0" stop-color="#bf9862" stop-opacity="0.35"/><stop offset="1" stop-color="#bf9862" stop-opacity="0"/></radialGradient>
+<linearGradient id="skin" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3a3330"/><stop offset="1" stop-color="#2a2523"/></linearGradient>
+</defs>
+<rect width="400" height="500" fill="url(#bg)"/>
+<rect width="400" height="500" fill="url(#glow)"/>
+<g fill="none" stroke="#bf9862" stroke-opacity="0.18"><circle cx="200" cy="170" r="150"/><circle cx="200" cy="170" r="185"/></g>
+<path d="M60 500 C70 400 130 360 170 350 L230 350 C270 360 330 400 340 500 Z" fill="#171516"/>
+<path d="M172 300 L228 300 L232 356 C214 368 186 368 168 356 Z" fill="url(#skin)"/>
+<ellipse cx="200" cy="170" rx="74" ry="98" fill="url(#skin)"/>
+<ellipse cx="126" cy="176" rx="10" ry="20" fill="#2f2926"/><ellipse cx="274" cy="176" rx="10" ry="20" fill="#2f2926"/>
+
+<path d="M126 126 C122 74 154 48 196 48 C246 48 280 72 276 126 C270 108 258 98 238 96 L186 96 L178 84 L172 98 C150 100 134 110 126 126 Z" fill="#141210"/>
+<path d="M126 126 C122 74 154 48 196 48 C246 48 280 72 276 126 C270 108 258 98 238 96 L186 96 L178 84 L172 98 C150 100 134 110 126 126 Z" fill="none" stroke="#bf9862" stroke-opacity="0.45" stroke-width="2"/>
+<text x="200" y="466" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#bf9862" letter-spacing="2">КЛАССИКА С ПРОБОРОМ</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" role="img" aria-labelledby="t">
+<title id="t">Короткий баз-кат — демонстрационная иллюстрация</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1e2226"/><stop offset="1" stop-color="#0d0d0e"/></linearGradient>
+<radialGradient id="glow" cx="0.5" cy="0.35" r="0.6"><stop offset="0" stop-color="#caa46b" stop-opacity="0.35"/><stop offset="1" stop-color="#caa46b" stop-opacity="0"/></radialGradient>
+<linearGradient id="skin" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3a3330"/><stop offset="1" stop-color="#2a2523"/></linearGradient>
+</defs>
+<rect width="400" height="500" fill="url(#bg)"/>
+<rect width="400" height="500" fill="url(#glow)"/>
+<g fill="none" stroke="#caa46b" stroke-opacity="0.18"><circle cx="200" cy="170" r="150"/><circle cx="200" cy="170" r="185"/></g>
+<path d="M60 500 C70 400 130 360 170 350 L230 350 C270 360 330 400 340 500 Z" fill="#171516"/>
+<path d="M172 300 L228 300 L232 356 C214 368 186 368 168 356 Z" fill="url(#skin)"/>
+<ellipse cx="200" cy="170" rx="74" ry="98" fill="url(#skin)"/>
+<ellipse cx="126" cy="176" rx="10" ry="20" fill="#2f2926"/><ellipse cx="274" cy="176" rx="10" ry="20" fill="#2f2926"/>
+<path d="M146 176 C150 236 176 262 200 262 C224 262 250 236 254 176 C244 200 230 210 200 212 C170 210 156 200 146 176 Z" fill="#141210"/><path d="M180 218 C190 224 210 224 220 218" stroke="#141210" stroke-width="10" fill="none" stroke-linecap="round"/>
+<path d="M134 112 C136 76 164 62 200 62 C236 62 264 76 266 112 C252 104 236 100 200 100 C164 100 148 104 134 112 Z" fill="#141210"/>
+<path d="M134 112 C136 76 164 62 200 62 C236 62 264 76 266 112 C252 104 236 100 200 100 C164 100 148 104 134 112 Z" fill="none" stroke="#caa46b" stroke-opacity="0.45" stroke-width="2"/>
+<text x="200" y="466" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#caa46b" letter-spacing="2">КОРОТКИЙ БАЗ-КАТ</text>
+</svg>

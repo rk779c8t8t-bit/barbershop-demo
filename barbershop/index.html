@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OAK &amp; STEEL — барбершоп (демо-сайт)</title>
+  <meta name="description" content="Демонстрационный сайт барбершопа: услуги и цены, галерея работ, онлайн-запись через WhatsApp или Telegram.">
+  <meta name="theme-color" content="#0f0e0d">
+  <meta property="og:title" content="OAK & STEEL — барбершоп (демо-сайт)">
+  <meta property="og:description" content="Мужские стрижки, бороды и бритьё. Запись через WhatsApp или Telegram.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a class="logo" href="#top" aria-label="OAK &amp; STEEL — на главный экран">
+        <span class="logo__mark" aria-hidden="true">O&amp;S</span>
+        <span class="logo__text">OAK &amp; STEEL</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Открыть меню">
+        <span class="menu-toggle__bar" aria-hidden="true"></span>
+        <span class="menu-toggle__bar" aria-hidden="true"></span>
+        <span class="menu-toggle__bar" aria-hidden="true"></span>
+      </button>
+
+      <nav class="nav" id="site-nav" aria-label="Основное меню">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="#services">Услуги</a></li>
+          <li><a class="nav__link" href="#gallery">Работы</a></li>
+          <li><a class="nav__link" href="#benefits">Преимущества</a></li>
+          <li><a class="nav__link" href="#contacts">Контакты</a></li>
+          <li><a class="btn btn--small nav__cta" href="#booking">Записаться</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ГЛАВНЫЙ ЭКРАН -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <p class="eyebrow">Мужской барбершоп</p>
+        <h1 class="hero__title" id="hero-title">Стрижка, после которой <em>не нужно ничего поправлять</em></h1>
+        <p class="hero__text">Классические и современные мужские стрижки, оформление бороды и королевское бритьё. Спокойная атмосфера и внимание к деталям.</p>
+        <div class="hero__actions">
+          <a class="btn" href="#booking">Записаться онлайн</a>
+          <a class="btn btn--ghost" href="#services">Смотреть цены</a>
+        </div>
+        <ul class="hero__facts" aria-label="Коротко о нас">
+          <li>Запись в WhatsApp или Telegram</li>
+          <li>Цены указаны заранее</li>
+          <li>Без очередей — по времени</li>
+        </ul>
+        <figure class="hero__visual" aria-hidden="true">
+          <img src="images/work-classic.svg" alt="" width="400" height="500">
+        </figure>
+      </div>
+    </section>
+
+    <!-- УСЛУГИ -->
+    <section class="section" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">Прайс</p>
+          <h2 class="section__title" id="services-title">Услуги и цены</h2>
+          <p class="section__lead">Итоговая стоимость зависит от длины и густоты волос — мастер назовёт её до начала работы.</p>
+        </div>
+
+        <div class="price-groups">
+          <div class="price-group">
+            <h3 class="price-group__title">Стрижки</h3>
+            <ul class="price-list">
+              <li class="price-item" data-service="Мужская стрижка">
+                <div class="price-item__info"><span class="price-item__name">Мужская стрижка</span><span class="price-item__meta">60 мин · мытьё и укладка включены</span></div>
+                <span class="price-item__price">от 1 800 ₽</span>
+              </li>
+              <li class="price-item" data-service="Фейд / скин-фейд">
+                <div class="price-item__info"><span class="price-item__name">Фейд / скин-фейд</span><span class="price-item__meta">60 мин · плавный переход до кожи</span></div>
+                <span class="price-item__price">от 2 000 ₽</span>
+              </li>
+              <li class="price-item" data-service="Стрижка машинкой">
+                <div class="price-item__info"><span class="price-item__name">Стрижка машинкой</span><span class="price-item__meta">30 мин · одна насадка</span></div>
+                <span class="price-item__price">от 1 000 ₽</span>
+              </li>
+              <li class="price-item" data-service="Детская стрижка">
+                <div class="price-item__info"><span class="price-item__name">Детская стрижка</span><span class="price-item__meta">45 мин · до 12 лет</span></div>
+                <span class="price-item__price">от 1 300 ₽</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="price-group">
+            <h3 class="price-group__title">Борода и бритьё</h3>
+            <ul class="price-list">
+              <li class="price-item" data-service="Оформление бороды">
+                <div class="price-item__info"><span class="price-item__name">Оформление бороды</span><span class="price-item__meta">40 мин · форма, контур, уход</span></div>
+                <span class="price-item__price">от 1 200 ₽</span>
+              </li>
+              <li class="price-item" data-service="Королевское бритьё">
+                <div class="price-item__info"><span class="price-item__name">Королевское бритьё</span><span class="price-item__meta">45 мин · горячее полотенце, опасная бритва</span></div>
+                <span class="price-item__price">от 1 500 ₽</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="price-group price-group--accent">
+            <h3 class="price-group__title">Комплексы</h3>
+            <ul class="price-list">
+              <li class="price-item" data-service="Стрижка + борода">
+                <div class="price-item__info"><span class="price-item__name">Стрижка + борода</span><span class="price-item__meta">90 мин · самый популярный выбор</span></div>
+                <span class="price-item__price">от 2 700 ₽</span>
+              </li>
+              <li class="price-item" data-service="Отец + сын">
+                <div class="price-item__info"><span class="price-item__name">Отец + сын</span><span class="price-item__meta">90 мин · две стрижки</span></div>
+                <span class="price-item__price">от 2 800 ₽</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ГАЛЕРЕЯ -->
+    <section class="section section--dark" id="gallery" aria-labelledby="gallery-title">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">Портфолио</p>
+          <h2 class="section__title" id="gallery-title">Галерея работ</h2>
+          <p class="section__lead">Сейчас здесь демонстрационные иллюстрации. Для настоящего барбершопа их заменяют фотографиями его работ.</p>
+        </div>
+
+        <ul class="gallery">
+          <li class="gallery__item"><figure><img src="images/work-fade.svg" alt="Иллюстрация: мужская стрижка фейд" width="400" height="500" loading="lazy"><figcaption>Фейд</figcaption></figure></li>
+          <li class="gallery__item"><figure><img src="images/work-crop.svg" alt="Иллюстрация: текстурный кроп" width="400" height="500" loading="lazy"><figcaption>Кроп с текстурой</figcaption></figure></li>
+          <li class="gallery__item"><figure><img src="images/work-beard.svg" alt="Иллюстрация: оформленная борода" width="400" height="500" loading="lazy"><figcaption>Оформление бороды</figcaption></figure></li>
+          <li class="gallery__item"><figure><img src="images/work-pomp.svg" alt="Иллюстрация: стрижка помпадур" width="400" height="500" loading="lazy"><figcaption>Помпадур</figcaption></figure></li>
+          <li class="gallery__item"><figure><img src="images/work-classic.svg" alt="Иллюстрация: классическая стрижка с пробором" width="400" height="500" loading="lazy"><figcaption>Классика с пробором</figcaption></figure></li>
+          <li class="gallery__item"><figure><img src="images/work-buzz.svg" alt="Иллюстрация: короткая стрижка и борода" width="400" height="500" loading="lazy"><figcaption>Короткий баз-кат</figcaption></figure></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ПРЕИМУЩЕСТВА -->
+    <section class="section" id="benefits" aria-labelledby="benefits-title">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">Почему мы</p>
+          <h2 class="section__title" id="benefits-title">Преимущества</h2>
+        </div>
+        <ul class="benefits">
+          <li class="benefit">
+            <svg class="benefit__icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+            <h3 class="benefit__title">Строго по записи</h3>
+            <p class="benefit__text">Приходите к назначенному времени — без ожидания в очереди.</p>
+          </li>
+          <li class="benefit">
+            <svg class="benefit__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h10"/></svg>
+            <h3 class="benefit__title">Честный прайс</h3>
+            <p class="benefit__text">Цены опубликованы на сайте, итог мастер называет до начала работы.</p>
+          </li>
+          <li class="benefit">
+            <svg class="benefit__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v6c0 4-3 7-7 9-4-2-7-5-7-9V6z"/><path d="M9 12l2 2 4-4"/></svg>
+            <h3 class="benefit__title">Чистые инструменты</h3>
+            <p class="benefit__text">Инструменты дезинфицируются после каждого клиента, используются одноразовые воротнички.</p>
+          </li>
+          <li class="benefit">
+            <svg class="benefit__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 15a8 8 0 0 1-11 4l-5 1 1-5a8 8 0 1 1 15 0z"/></svg>
+            <h3 class="benefit__title">Подскажем с формой</h3>
+            <p class="benefit__text">Мастер подберёт стрижку под тип волос и объяснит, как укладывать её дома.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ЗАПИСЬ -->
+    <section class="section section--dark" id="booking" aria-labelledby="booking-title">
+      <div class="container booking">
+        <div class="section__head">
+          <p class="eyebrow">Онлайн-запись</p>
+          <h2 class="section__title" id="booking-title">Записаться за минуту</h2>
+          <p class="section__lead">Заполните форму — мы откроем WhatsApp или Telegram с готовым текстом заявки. Останется только отправить.</p>
+        </div>
+
+        <form class="booking-form" id="booking-form" novalidate>
+          <div class="field">
+            <label for="b-name">Ваше имя</label>
+            <input id="b-name" name="name" type="text" autocomplete="given-name" required maxlength="60" placeholder="Например, Алексей">
+            <p class="field__error" id="b-name-error" hidden>Пожалуйста, укажите имя.</p>
+          </div>
+          <div class="field">
+            <label for="b-service">Услуга</label>
+            <select id="b-service" name="service">
+              <option value="">Пока не знаю — посоветуйте</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="b-time">Удобные день и время</label>
+            <input id="b-time" name="time" type="text" maxlength="80" placeholder="Например, суббота после 15:00">
+          </div>
+          <div class="booking-form__actions">
+            <button class="btn btn--wa" type="submit" data-messenger="whatsapp">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 15a8 8 0 0 1-11 4l-5 1 1-5a8 8 0 1 1 15 0z"/></svg>
+              Отправить в WhatsApp
+            </button>
+            <button class="btn btn--tg" type="submit" data-messenger="telegram">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 4L3 11l6 2 2 6 3-4 5 4z"/><path d="M9 13l12-9"/></svg>
+              Отправить в Telegram
+            </button>
+          </div>
+          <p class="booking-form__note">Данные никуда не сохраняются на сайте — они попадают только в ваше сообщение.</p>
+        </form>
+      </div>
+    </section>
+
+    <!-- КОНТАКТЫ -->
+    <section class="section" id="contacts" aria-labelledby="contacts-title">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">Как нас найти</p>
+          <h2 class="section__title" id="contacts-title">Контакты</h2>
+        </div>
+        <div class="contacts">
+          <dl class="contacts__list">
+            <div class="contacts__row">
+              <dt>Адрес</dt>
+              <dd id="c-address"></dd>
+            </div>
+            <div class="contacts__row">
+              <dt>Часы работы</dt>
+              <dd id="c-hours"></dd>
+            </div>
+            <div class="contacts__row">
+              <dt>Телефон</dt>
+              <dd id="c-phone"></dd>
+            </div>
+          </dl>
+          <div class="contacts__actions">
+            <button class="btn btn--wa" type="button" data-contact="whatsapp">Написать в WhatsApp</button>
+            <button class="btn btn--tg" type="button" data-contact="telegram">Написать в Telegram</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="logo__text">OAK &amp; STEEL</p>
+      <p class="footer__note">Демонстрационный сайт. Название, цены и иллюстрации вымышлены и служат примером.</p>
+      <a class="footer__top" href="#top">Наверх ↑</a>
+    </div>
+  </footer>
+
+  <!-- Плавающая кнопка связи -->
+  <div class="fab" id="fab">
+    <div class="fab__menu" id="fab-menu" hidden>
+      <button class="fab__option fab__option--wa" type="button" data-contact="whatsapp">WhatsApp</button>
+      <button class="fab__option fab__option--tg" type="button" data-contact="telegram">Telegram</button>
+    </div>
+    <button class="fab__toggle" type="button" aria-expanded="false" aria-controls="fab-menu" aria-label="Связаться с нами">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 15a8 8 0 0 1-11 4l-5 1 1-5a8 8 0 1 1 15 0z"/></svg>
+    </button>
+  </div>
+
+  <!-- Окно-подсказка, если контакт ещё не указан в настройках -->
+  <dialog class="notice" id="notice" aria-labelledby="notice-title">
+    <h2 class="notice__title" id="notice-title">Контакт пока не подключён</h2>
+    <p class="notice__text" id="notice-text"></p>
+    <form method="dialog"><button class="btn" type="submit">Понятно</button></form>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <noscript><p class="noscript">Для записи через мессенджеры включите JavaScript в браузере.</p></noscript>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
